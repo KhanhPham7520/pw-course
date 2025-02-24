@@ -1,5 +1,5 @@
-var myHeight;
-var goodWeight = (myHeight * 9) / 10 ;
-var maxWeight;
-var minWeight;
+let myHeight;
+let goodWeight = (myHeight * 9) / 10;
+let maxWeight;
+let minWeight;
 

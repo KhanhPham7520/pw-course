@@ -1,13 +1,13 @@
-var number = 12;
-var name = "my number";
-var isEven = false;
+const number = 12;
+let name = "my number";
+let isEven = false;
 
-if(number % 2 == 0){
+if (number % 2 == 0) {
     isEven = true;
 }
 
-if(isEven == true){
+if (isEven == true) {
     console.log("This is even number");
-}else{
+} else {
     console.log("This is odd number");
 }

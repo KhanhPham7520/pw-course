@@ -1,4 +1,4 @@
-var myName = "Alex";
+let myName = "Alex";
 
 myName = "Nagi";
 
