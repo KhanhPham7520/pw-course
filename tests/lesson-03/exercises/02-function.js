@@ -59,3 +59,9 @@ console.log(filterPrimes(numbers));
 
 console.log("--------------------------------------------------");
 
+//5. Tạo một function để cập nhật email cho người dùng trong một danh sách, dựa trên tên người dùng.
+
+const userObj = {
+    name : "Khanh",
+    email : "phamphannhatkhanh@gmail.com"
+}
