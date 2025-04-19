@@ -64,7 +64,6 @@ test.describe("Authentication", () => {
             // verify text in input field
             expect(actualUsername).toEqual(invalidCredential.username);
             expect(actualPassword).toBe(invalidCredential.password);
-
         });
 
         await test.step("Click vào login button", async() => {

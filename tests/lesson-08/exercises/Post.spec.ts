@@ -106,8 +106,6 @@ test.describe("POST - Post", () => {
             
             const actualTagNameValidationMsg = await page.locator(tagNameValidationMsg).textContent();
             await expect(actualTagNameValidationMsg).toEqual("Tag added.");
-
-            
         });
     })
    
