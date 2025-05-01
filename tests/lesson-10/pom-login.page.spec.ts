@@ -1,4 +1,5 @@
 import { test } from "@playwright/test";
+import { expect } from "@playwright/test";
 import { LoginPage } from "./login-page";
 
 let userCredential = {
